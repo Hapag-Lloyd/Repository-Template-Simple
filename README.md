@@ -1,4 +1,4 @@
-# Repository-Template-Docker
+# Repository-Template-Simple
 
 Template repository for simple GitHub projects. Don't forget to update the README.md file with the project information and
 initially run

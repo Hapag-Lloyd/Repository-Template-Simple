@@ -1,5 +1,5 @@
 ---
-name: "Check spelling"
+name: Check spelling
 
 # yamllint disable-line rule:truthy
 on:
@@ -7,5 +7,6 @@ on:
 
 jobs:
   default:
-    uses: Hapag-Lloyd/Workflow-Templates/.github/workflows/default_spelling_callable.yml@733afe1105fc85fafc25cddbc3c34b48c2c3d6fa
+    # yamllint disable-line rule:line-length
+    uses: Hapag-Lloyd/Workflow-Templates/.github/workflows/default_spelling_callable.yml@c2e27d976e1221942c2186e512183ab79c1c8bac # 1.15.4
     secrets: inherit
